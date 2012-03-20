@@ -134,6 +134,18 @@ static bool radeon_msi_ok(struct radeon_device *rdev)
 	/* Dell RS690 only seems to work with MSIs. */
 	if ((rdev->pdev->device == 0x791f) &&
 	    (rdev->pdev->subsystem_vendor == 0x1028) &&
+	    (rdev->pdev->subsystem_device == 0x01fc))
+		return true;
+
+	/* Dell RS690 only seems to work with MSIs. */
+	if ((rdev->pdev->device == 0x791f) &&
+	    (rdev->pdev->subsystem_vendor == 0x1028) &&
+	    (rdev->pdev->subsystem_device == 0x01fc))
+		return true;
+
+	/* Dell RS690 only seems to work with MSIs. */
+	if ((rdev->pdev->device == 0x791f) &&
+	    (rdev->pdev->subsystem_vendor == 0x1028) &&
 	    (rdev->pdev->subsystem_device == 0x01fd))
 		return true;
 
@@ -249,4 +261,3 @@ void radeon_irq_kms_pflip_irq_put(struct radeon_device *rdev, int crtc)
 	}
 	spin_unlock_irqrestore(&rdev->irq.pflip_lock[crtc], irqflags);
 }
-
