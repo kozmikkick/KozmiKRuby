@@ -10,6 +10,7 @@ cp drivers/net/wireless/wl12xx/wl12xx.ko compiled/modules/wl12xx.ko
 cp drivers/net/wireless/wl12xx/wl12xx_sdio.ko compiled/modules/wl12xx_sdio.ko
 cp drivers/net/wireless/wl12xx/wl12xx_spi.ko compiled/modules/wl12xx_spi.ko
 cp drivers/spi/spidev.ko compiled/modules/spidev.ko
+cp fs/cifs/cifs.ko compiled/modules/cifs.ko
 cp drivers/staging/ti-st/fm_drv.ko compiled/modules/fm_drv.ko
 cp net/bluetooth/bnep/bnep.ko compiled/modules/bnep.ko
 cp net/bluetooth/bluetooth.ko compiled/modules/bluetooth.ko
@@ -18,6 +19,5 @@ cp net/bluetooth/rfcomm/rfcomm.ko compiled/modules/rfcomm.ko
 cp net/mac80211/mac80211.ko compiled/modules/mac80211.ko
 cp net/wireless/cfg80211.ko compiled/modules/cfg80211.ko
 cp net/wireless/lib80211.ko compiled/modules/lib80211.ko
-cp fs/cifs/cifs.ko compiled/modules/cifs.ko
 
 cp arch/arm/boot/zImage compiled/zImage
