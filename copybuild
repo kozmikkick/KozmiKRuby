@@ -3,18 +3,21 @@
 cp arch/arm/mach-msm/msm-buspm-dev.ko compiled/modules/msm-buspm-dev.ko
 cp drivers/bluetooth/btwilink.ko compiled/modules/btwilink.ko
 cp drivers/hid/hid-magicmouse.ko compiled/modules/hid-magicmouse.ko
-cp drivers/net/wireless/libra/librasdioif.ko compiled/modules/librasdioif.ko
-cp drivers/spi/spidev.ko compiled/modules/spidev.ko
 cp drivers/net/kineto_gan.ko compiled/modules/kineto_gan.ko
+cp drivers/net/tun.ko compiled/modules/tun.ko
+cp drivers/net/wireless/libra/librasdioif.ko compiled/modules/librasdioif.ko
+cp drivers/net/wireless/wl12xx/wl12xx.ko compiled/modules/wl12xx.ko
+cp drivers/net/wireless/wl12xx/wl12xx_sdio.ko compiled/modules/wl12xx_sdio.ko
+cp drivers/net/wireless/wl12xx/wl12xx_spi.ko compiled/modules/wl12xx_spi.ko
+cp drivers/spi/spidev.ko compiled/modules/spidev.ko
 cp drivers/staging/ti-st/fm_drv.ko compiled/modules/fm_drv.ko
-cp net/bluetooth/rfcomm/rfcomm.ko compiled/modules/rfcomm.ko
-cp net/mac80211/mac80211.ko compiled/modules/mac80211.ko
+cp net/bluetooth/bnep/bnep.ko compiled/modules/bnep.ko
 cp net/bluetooth/bluetooth.ko compiled/modules/bluetooth.ko
 cp net/bluetooth/hidp/hidp.ko compiled/modules/hidp.ko
+cp net/bluetooth/rfcomm/rfcomm.ko compiled/modules/rfcomm.ko
+cp net/mac80211/mac80211.ko compiled/modules/mac80211.ko
 cp net/wireless/cfg80211.ko compiled/modules/cfg80211.ko
 cp net/wireless/lib80211.ko compiled/modules/lib80211.ko
-cp net/bluetooth/bnep/bnep.ko compiled/modules/bnep.ko
-
-
+cp fs/cifs/cifs.ko compiled/modules/cifs.ko
 
 cp arch/arm/boot/zImage compiled/zImage
